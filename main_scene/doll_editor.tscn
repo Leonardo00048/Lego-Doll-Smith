@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://c51m000dmsm0v"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_ghlvx"]
+
+[sub_resource type="Sky" id="Sky_angbg"]
+sky_material = SubResource("PanoramaSkyMaterial_ghlvx")
+
+[sub_resource type="Environment" id="Environment_aren6"]
+background_mode = 1
+background_color = Color(0.49803922, 0.49803922, 0.49803922, 1)
+background_energy_multiplier = 0.5
+sky = SubResource("Sky_angbg")
+ambient_light_source = 2
+ambient_light_color = Color(0.5019608, 0.5647059, 0.627451, 1)
+ambient_light_energy = 0.49
+tonemap_mode = 3
+tonemap_exposure = 0.42
+ssao_radius = 1.5
+
+[node name="MainScene" type="Node3D" unique_id=932506338]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=812457607]
+transform = Transform3D(0.99999994, 0, 0, 0, 0.9848077, 0.17364816, 0, -0.17364818, 0.98480767, 0, 0, 200)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1350641998]
+environment = SubResource("Environment_aren6")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=688315693]
+transform = Transform3D(1, 0, 0, 0, 0.7071067, 0.7071067, 0, -0.7071067, 0.7071067, 0, 0, 0)

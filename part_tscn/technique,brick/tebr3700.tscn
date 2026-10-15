@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ddlfkdmkvqha4"]
+
+[ext_resource type="ArrayMesh" uid="uid://v2oyjekbbha4" path="res://part/technique,brick/3700.obj" id="1_3adq3"]
+
+[node name="Node3D" type="Node3D" unique_id=566750058]
+
+[node name="3700" type="MeshInstance3D" parent="." unique_id=521137277]
+mesh = ExtResource("1_3adq3")

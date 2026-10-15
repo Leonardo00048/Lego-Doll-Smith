@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dvvabv1dqfk18"]
+
+[ext_resource type="ArrayMesh" uid="uid://c7cfcmirwt44r" path="res://part/technique,axle/43093.obj" id="1_dcr2v"]
+
+[node name="Node3D" type="Node3D" unique_id=566750058]
+
+[node name="43093" type="MeshInstance3D" parent="." unique_id=1001784263]
+mesh = ExtResource("1_dcr2v")

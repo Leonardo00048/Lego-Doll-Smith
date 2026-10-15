@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://d27hwy6dcwcka"]
+
+[ext_resource type="ArrayMesh" uid="uid://cl7w0ptb2y0g2" path="res://part/slope,inverted/3665.obj" id="1_rycvl"]
+
+[node name="Node3D" type="Node3D" unique_id=1974038018]
+
+[node name="3665" type="MeshInstance3D" parent="." unique_id=1420344941]
+mesh = ExtResource("1_rycvl")
